@@ -8,7 +8,7 @@ const { test } = require('../controllers/auhtController');
 router.use(
 	cors({
 		credentials: true,
-		origin: 'http:http://localhost:3000',
+		origin: 'http://localhost:3000',
 	})
 );
 
